@@ -33,10 +33,14 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-    <a-marker
-    type="pattern"
-    url="/QR.patt"
-    >
+    <a-nft
+    type="nft"
+    url="/QR"
+    smooth="true"
+    smoothCount="10"
+    smoothTolerance=".01"
+    smoothThreshold="5"
+  >
     <!--
       <a-entity
         gltf-model="car.gltf"
