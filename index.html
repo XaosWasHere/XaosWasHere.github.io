@@ -41,12 +41,23 @@
       smoothTolerance=".01"
       smoothThreshold="5"
     >
+    <!--
       <a-entity
         gltf-model="car.gltf"
         scale="1 1 1"
         position="0 0 0"
       >
       </a-entity>
+       -->
+      <a-plane
+       id="imagePlane" 
+       position="0 0 0" 
+       rotation="-90 0 0"
+       width="4"
+       height="2.25"
+       material="shader: flat; scale: 2 2 2"
+      >
+      </a-plane>
     </a-nft>
     <a-entity camera></a-entity>
   </a-scene>
