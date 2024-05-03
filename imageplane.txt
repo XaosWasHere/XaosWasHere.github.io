@@ -1,0 +1,9 @@
+<a-plane
+       id="imagePlane" 
+       position="0 0 0" 
+       rotation="-90 0 0"
+       width="4"
+       height="2.25"
+       material="shader: flat; scale: 2 2 2"
+      >
+</a-plane>
