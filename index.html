@@ -33,13 +33,9 @@
     embedded
     arjs="trackingMethod: best; sourceType: webcam;debugUIEnabled: false;"
   >
-    <a-nft
-      type="nft"
-      url="/QR"
-      smooth="true"
-      smoothCount="10"
-      smoothTolerance=".01"
-      smoothThreshold="5"
+    <a-marker
+    type="marker"
+    url="/QR.patt"
     >
     <!--
       <a-entity
@@ -58,7 +54,7 @@
        material="shader: flat; scale: 2 2 2"
       >
       </a-plane>
-    </a-nft>
+    </a-marker>
     <a-entity camera></a-entity>
   </a-scene>
 </body>
